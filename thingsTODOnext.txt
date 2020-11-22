@@ -1,0 +1,4 @@
+1.Add sounds element
+2.Create a scoring system..done
+3.Create a EndScreen..done
+4.Design new levels..done
