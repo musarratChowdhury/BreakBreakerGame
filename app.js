@@ -37,7 +37,7 @@ function GameAreaStart(){
     for(let i = 0;i<7;i++){
         for(let j=0;j < 3;j++){
             if(j==0){
-                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box1.svg'));
+                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box2.svg'));
             }
            
         }
