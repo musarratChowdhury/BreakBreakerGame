@@ -37,7 +37,7 @@ function GameAreaStart(){
     for(let i = 0;i<7;i++){
         for(let j=0;j < 3;j++){
             if(j==0){
-                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box2.svg'));
+                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/box2.svg'));
             }
            
         }
@@ -123,13 +123,13 @@ function updateGameArea(){
         for(let j=0;j < 3;j++){
             if(i==j)
            {
-                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box2.svg'))};
+                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/box2.svg'))};
          }
        }
        for(let i = 7;i>0;i--){
            for(let j= 0;j<3;j++){
                if(i==4||i==6){
-                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box2.svg'))};
+                bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/box2.svg'))};
                }
            }
        }
@@ -139,7 +139,7 @@ function updateGameArea(){
             for(let j=0;j < 3;j++){
                 if(i==1||i==3||i==5)
                { 
-                   bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/Box2.svg'))};
+                   bricks.push(new boxBuilder(10+i*(BRICKS_WIDTH+20),100+j*(10+BRICKS_HEIGHT),BRICKS_WIDTH,BRICKS_HEIGHT,'./svg/box2.svg'))};
              }
            }
     }
